@@ -1,0 +1,73 @@
+{
+  "kind": "build_request",
+  "title": "Update Contact and Social Icon Links with Provided Details",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Update the Contact section contact method cards to use the user's provided email, phone number, and LinkedIn URL, including correct `mailto:` and `tel:` hrefs.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-links-1",
+          "msg-user-update-1"
+        ],
+        "quotes": [
+          "need to update icons link\ni also need \nhttps://www.linkedin.com/in/khalid-hussain2k26/\nhttps://github.com/KhalidHussain-FED\nm.khalid.fed@gmail.com\n+923411876543",
+          "please update"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In `frontend/src/components/sections/ContactSection.tsx`, the Email contact method uses value `m.khalid.fed@gmail.com` and href `mailto:m.khalid.fed@gmail.com`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the Phone contact method uses value `+923411876543` and href `tel:+923411876543` (digits preserved; leading `+` allowed).",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the LinkedIn contact method href is `https://www.linkedin.com/in/khalid-hussain2k26/`.",
+        "The “Send a Message” CTA button in the Contact section uses `mailto:m.khalid.fed@gmail.com`."
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Update the social icon buttons/links to use the user's provided X, GitHub, and LinkedIn URLs.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-links-1",
+          "msg-user-update-1"
+        ],
+        "quotes": [
+          "https://x.com/KhalidH05169651\nneed to update icons link\ni also need \nhttps://www.linkedin.com/in/khalid-hussain2k26/\nhttps://github.com/KhalidHussain-FED",
+          "please update"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In `frontend/src/components/sections/ContactSection.tsx`, the X social link href is `https://x.com/KhalidH05169651`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the GitHub social link href is `https://github.com/KhalidHussain-FED`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the LinkedIn social link href is `https://www.linkedin.com/in/khalid-hussain2k26/`.",
+        "Social links continue to open in a new tab and keep `rel=\"noopener noreferrer\"` for external links."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under `frontend/src/components/ui` (read-only Shadcn UI components).",
+    "Do not modify any files listed in `frontend.immutablePaths` in SYSTEM_CONTEXT.",
+    "Keep the backend as a single-actor Motoko canister; no backend changes are required for these link updates."
+  ],
+  "nonGoals": [
+    "Adding a backend contact form or storing messages.",
+    "Changing the site’s overall visual theme, layout structure, or service offerings.",
+    "Adding or integrating third-party authentication providers beyond Internet Identity."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

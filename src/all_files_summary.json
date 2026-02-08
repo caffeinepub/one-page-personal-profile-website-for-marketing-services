@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Minimal Motoko actor with no methods or logic.",
+  "feature_evidence.json": "Feature evidence report listing two features related to ContactSection link updates with associated files and metadata.",
+  "frontend-file-summaries.txt": "Prewritten summaries describing key frontend files and their roles in the app.",
+  "frontend/index.css": "Tailwind base layers and extensive OKLCH color variables with light and dark theme definitions.",
+  "frontend/index.html": "Main HTML entry with SEO meta tags and Google Fonts setup loading the React app.",
+  "frontend/src/App.tsx": "Composes the main sections (Hero, About, Services, Contact) and Footer into the page layout.",
+  "frontend/src/components/Footer.tsx": "Footer with attribution, navigation links, and a heart icon.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section with highlight cards and a detailed 'Why Work With Me' panel.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section rendering contact method cards and social links using mailto, tel, and external URLs.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with background image, avatar, headline, CTAs, and animated stats.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Renders a Services section displaying a grid of service cards with icons, descriptions, and styling, plus a call-to-action link.",
+  "frontend/src/hooks/useActor.ts": "Provides a hook that creates and manages a backend actor based on the user’s Internet Identity, refetching dependent queries when it changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Implements an Internet Identity context and provider handling authentication, identity loading, login flow, and state management.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file indicating no backend queries are required.",
+  "frontend/src/index.css": "Defines Tailwind base styles and a custom color/theme system using CSS variables for light and dark modes.",
+  "frontend/src/main.tsx": "Bootstraps the React app, wrapping it with React Query and Internet Identity providers.",
+  "frontend/tailwind.config.js": "Configures Tailwind with custom colors, fonts, components, animations, and plugin integrations.",
+  "project_state.json": "Stores project metadata, feature definitions, requirements, and state tracking for the build plan."
+}

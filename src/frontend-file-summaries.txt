@@ -1,0 +1,12 @@
+{
+  "frontend/src/index.css": "Global styles with warm terracotta/cream OKLCH color palette, custom typography scale, and focus styles for a professional marketing profile.",
+  "frontend/tailwind.config.js": "Tailwind configuration with warm color tokens, custom font families (Inter/Outfit), varied border radii, and custom shadows/animations.",
+  "frontend/index.html": "HTML entry point with SEO meta tags, page title optimized for digital marketing services, and Google Fonts preload.",
+  "frontend/src/App.tsx": "Main application component that composes Hero, About, Services, Contact sections and Footer into a single-page layout.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with avatar image, background image with overlay, headline, stats grid, and CTA buttons with smooth scroll navigation.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section featuring three highlight cards with icons and a detailed \"Why Work With Me\" panel with bullet points.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section displaying all 7 services (Digital Marketing, Website Development, SEO, Google Ads, Tag Manager, Meta Ads, Local Ads) in a responsive grid with icons and descriptions.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with three contact method cards (email: m.khalid.fed@gmail.com, phone: +923411876543, LinkedIn), message CTA, and social media links (X, GitHub, LinkedIn) with proper external link attributes.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice, caffeine.ai attribution with heart icon, and navigation links.",
+  "frontend/src/hooks/useQueries.ts": "Empty queries file as no backend data fetching is required for this static profile page."
+}

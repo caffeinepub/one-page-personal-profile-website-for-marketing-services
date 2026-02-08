@@ -1,0 +1,41 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update contact methods and social links in Contact section",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "summary": "Update Contact section contact method cards and CTA to use provided email, phone, and LinkedIn URL with correct mailto/tel links.",
+      "acceptanceCriteria": [
+        "In `frontend/src/components/sections/ContactSection.tsx`, the Email contact method uses value `m.khalid.fed@gmail.com` and href `mailto:m.khalid.fed@gmail.com`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the Phone contact method uses value `+923411876543` and href `tel:+923411876543` (digits preserved; leading `+` allowed).",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the LinkedIn contact method href is `https://www.linkedin.com/in/khalid-hussain2k26/`.",
+        "The “Send a Message” CTA button in the Contact section uses `mailto:m.khalid.fed@gmail.com`."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Replace placeholder contactMethods values/hrefs with the provided email, phone (tel:+923411876543), and LinkedIn URL; also update the “Send a Message” CTA anchor href to `mailto:m.khalid.fed@gmail.com`. Keep existing UI structure and avoid changes to any `frontend/src/components/ui/*` shadcn components."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Update Contact section social icon links to use provided X, GitHub, and LinkedIn URLs while preserving external-link safety attributes.",
+      "acceptanceCriteria": [
+        "In `frontend/src/components/sections/ContactSection.tsx`, the X social link href is `https://x.com/KhalidH05169651`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the GitHub social link href is `https://github.com/KhalidHussain-FED`.",
+        "In `frontend/src/components/sections/ContactSection.tsx`, the LinkedIn social link href is `https://www.linkedin.com/in/khalid-hussain2k26/`.",
+        "Social links continue to open in a new tab and keep `rel=\"noopener noreferrer\"` for external links."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update the socialLinks array hrefs to the provided X, GitHub, and LinkedIn URLs. Preserve existing `target=\"_blank\"` and `rel=\"noopener noreferrer\"` attributes on the rendered anchor elements and keep the current button/icon UI unchanged."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a one-page personal profile website highlighting services in digital marketing, website development, SEO, Google Ads, Tag Manager, Meta ads, and local ads.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-single-page-personal-profile-website-that-presents-the-user-as-a-professional-offering-the-following-services-digital-marketing-website-development-seo-google-ads-tag-manager-meta-ads-and-local-ads",
+      "title": "Create a responsive single-page personal profile website that presents the user as a professional offering the following services: Digital Marketing, Website Development, SEO, Google Ads, Tag Manager, Meta Ads, and Local Ads.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-clear-section-structure-with-user-facing-english-copy-hero-name-title-short-value-statement-about-services-cards-or-list-for-each-service-and-contact-simple-contact-section-with-placeholders-for-email-phone-social-links",
+      "title": "Implement a clear section structure with user-facing English copy: Hero (name/title + short value statement), About, Services (cards or list for each service), and Contact (simple contact section with placeholders for email/phone/social links).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-one-cohesive-visual-theme-colors-typography-spacing-components-suitable-for-a-professional-digital-marketing-profile-keep-styling-consistent-across-all-sections-and-avoid-a-blue-purple-primary-palette",
+      "title": "Apply one cohesive visual theme (colors, typography, spacing, components) suitable for a professional digital marketing profile; keep styling consistent across all sections and avoid a blue/purple primary palette.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-on-page-seo-elements-for-a-personal-profile-landing-page-meaningful-document-title-meta-description-and-accessible-semantic-headings-one-h1-then-h2s-for-sections",
+      "title": "Add basic on-page SEO elements for a personal profile landing page: meaningful document title, meta description, and accessible semantic headings (one H1, then H2s for sections).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-generated-static-images-as-frontend-assets-and-display-them-on-the-page-a-profile-avatar-illustration-and-a-subtle-abstract-header-background",
+      "title": "Add generated static images as frontend assets and display them on the page: a profile avatar/illustration and a subtle abstract header background.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-contact-method-cards-to-use-the-user-s-provided-email-phone-number-and-linkedin-url-including-correct-mailto-and-tel-hrefs",
+      "title": "Update the Contact section contact method cards to use the user's provided email, phone number, and LinkedIn URL, including correct `mailto:` and `tel:` hrefs.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-social-icon-buttons-links-to-use-the-user-s-provided-x-github-and-linkedin-urls",
+      "title": "Update the social icon buttons/links to use the user's provided X, GitHub, and LinkedIn URLs.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a one-page personal profile website (single-page code) showcasing services: Digital Marketing, Website Development, SEO, Google Ads, Tag Manager, Meta Ads, Local Ads.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update contact/social icons and links to include X, LinkedIn, GitHub, email, and phone with the provided URLs and details.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "One-page personal profile website for marketing services",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

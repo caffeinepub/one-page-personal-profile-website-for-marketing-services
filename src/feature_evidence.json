@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contact-section-contact-method-cards-to-use-the-user-s-provided-email-phone-number-and-linkedin-url-including-correct-mailto-and-tel-hrefs",
+      "featureTitle": "Update the Contact section contact method cards to use the user's provided email, phone number, and LinkedIn URL, including correct `mailto:` and `tel:` hrefs.",
+      "files": [
+        "frontend/src/components/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-social-icon-buttons-links-to-use-the-user-s-provided-x-github-and-linkedin-urls",
+      "featureTitle": "Update the social icon buttons/links to use the user's provided X, GitHub, and LinkedIn URLs.",
+      "files": [
+        "frontend/src/components/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
